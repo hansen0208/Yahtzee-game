@@ -69,9 +69,9 @@ A text-based implementation of the classic Yahtzee dice game for 1-4 players, fe
 1. Compile with: bash
    run the following code to create executable 'yahtzee'
    use cd to find access the file Yahtzee on your computer
-   g++ main.cpp Player.cpp Dice.cpp ScoreCard.cpp -o yahtzee
+   `g++ main.cpp Player.cpp Dice.cpp ScoreCard.cpp -o yahtzee`
 
-2. Run with ./yahtzee
+2. Run with `./yahtzee`
 
 YAHTZEE GAME INSTRUCTIONS
 =========================
