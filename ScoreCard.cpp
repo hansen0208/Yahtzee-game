@@ -6,12 +6,16 @@ using namespace std;
 // calculating sum of dices of same number (e.g. 22345, then sum of 2 is 4)
 int ScoreCard::sumOfNumber(const vector<int> &dice, int number) {
     return count(dice.begin(), dice.end(), number) * number;
+    
 }
 
 // calculating sum of all dice number (e.g. 22345, them sum is 2+2+3+4+5 = 16)
 int ScoreCard::sumAllDice(const vector<int> &dice) {
     return accumulate(dice.begin(), dice.end(), 0);
+    
 }
+
+
 
 // count sum of all dice numbers when reaching 3 or 4 of a kind
 int ScoreCard::countOfAKind(const vector<int> &dice, int n) {
@@ -20,7 +24,9 @@ int ScoreCard::countOfAKind(const vector<int> &dice, int n) {
             return sumAllDice(dice);
         }
     }
+    
     return 0;
+    
 }
 
 // bool check Full house by checking if the 5 dices has 2 and 3 identical numbers
@@ -30,10 +36,10 @@ bool ScoreCard::isFullHouse(const vector<int> &dice) {
         int num = count(dice.begin(), dice.end(), i);
         if (num == 2) hasTwo = true;
         if (num == 3) hasThree = true;
+        
     }
 
     return hasTwo && hasThree;
-
 }
 
 // bool check if 4 or 5 numbers form a straight by sorting the dice by a vector, then compare each entry to check if they differ by 1 to see if it's a straight
@@ -50,11 +56,13 @@ bool ScoreCard::isStraight(const vector<int> &dice, int n) {
         }
     }
     return false;
+    
 }
 
 // check if all dices are of the same number
 bool ScoreCard::isYahtzee(const vector<int> &dice) {
     return all_of(dice.begin(), dice.end(), [&](int i){return i == dice[0];});
+
 }
 
 // calculate score function use different if statements to show different sceanrios and return corresponding store with the aforementioned int and bool function
@@ -72,6 +80,7 @@ int ScoreCard::calculateScore(const vector<int> &dice, const string &category) {
     if (category == "Large Straight") return isStraight(dice, 5) ? 40 : 0;
     if (category == "Yahtzee") return isYahtzee(dice) ? 50 : 0;
     if (category == "Chance") return sumAllDice(dice);
+    
     return 0;
 }
 
@@ -79,8 +88,10 @@ int ScoreCard::calculateScore(const vector<int> &dice, const string &category) {
 void ScoreCard::getAvailableCategories(const vector<string> &categories, const vector<bool> &usedCategories, vector<string> &available) {
     available.clear();
     for (size_t i = 0; i < categories.size(); i++) {
-        if (!usedCategories[i]) {
+        if (!usedCategories[i]){
             available.push_back(categories[i]);
         }
     }
+    
 }
+
