@@ -55,13 +55,13 @@ A text-based implementation of the classic Yahtzee dice game for 1-4 players, fe
 ## Libraries Used
 | Library | Purpose | Feature Supported |
 |---------|---------|-------------------|
-| '<iostream>' | Input/output | Game interface |
-| '<vector>' | Dynamic arrays | Dice storage, category lists |
-| '<map>' | Key-value storage | Score tracking |
-| '<random>' | Random number generation | Dice rolls |
-| '<iomanip>' | Output formatting | Scorecard display |
-| '<string>' | String handling | Player names, categories |
-| '<limits>' | Input validation | Preventing crashes |
+| `<iostream>` | Input/output | Game interface |
+| `<vector>` | Dynamic arrays | Dice storage, category lists |
+| `<map>` | Key-value storage | Score tracking |
+| `<random>` | Random number generation | Dice rolls |
+| `<iomanip>` | Output formatting | Scorecard display |
+| `<string>` | String handling | Player names, categories |
+| `<limits>` | Input validation | Preventing crashes |
 
 ## Game Instructions
 
