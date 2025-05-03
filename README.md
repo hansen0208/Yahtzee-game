@@ -5,6 +5,9 @@
 3036392813 Ng Sze Hon
 3036386553 Tsang Yat Long
 
+# DEMO Video
+https://youtu.be/H9dTp_mkFE0
+
 # Yahtzee Game in C++
 
 ## Description
