@@ -7,6 +7,7 @@
 
 # DEMO Video
 https://youtu.be/H9dTp_mkFE0
+Feature: User Interface, Easy&Hard Mode, Game Flow, Error Message for Invalid Input, How to start the game.
 
 # Yahtzee Game in C++
 
