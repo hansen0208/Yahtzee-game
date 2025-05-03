@@ -33,7 +33,7 @@ bool ScoreCard::isFullHouse(const vector<int> &dice) {
     }
 
     return hasTwo && hasThree;
-    }
+
 }
 
 // bool check if 4 or 5 numbers form a straight by sorting the dice by a vector, then compare each entry to check if they differ by 1 to see if it's a straight
