@@ -1,9 +1,9 @@
 # Team Member
-3036395853 Mak Ka Po
-3036386539 Leung Yat Long
-3036293378 Kwok Chun Hei
-3036392813 Ng Sze Hon
-3036386553 Tsang Yat Long
+ - 3036395853 Mak Ka Po
+ - 3036386539 Leung Yat Long
+ - 3036293378 Kwok Chun Hei
+ - 3036392813 Ng Sze Hon
+ - 3036386553 Tsang Yat Long
 
 # DEMO Video
 https://youtu.be/H9dTp_mkFE0
