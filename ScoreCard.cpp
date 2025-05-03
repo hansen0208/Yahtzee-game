@@ -31,8 +31,8 @@ bool ScoreCard::isFullHouse(const vector<int> &dice) {
         if (num == 2) hasTwo = true;
         if (num == 3) hasThree = true;
     }
-    if (hasTwo && hasThree){
-        return true;
+
+    return hasTwo && hasThree;
     }
 }
 
